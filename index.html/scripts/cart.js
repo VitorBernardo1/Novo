@@ -67,11 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             cartItemsContainer.appendChild(cartItem);
         });
-        
-        // Calculate shipping (example: free for orders over R$ 300)
-        const shipping = subtotal >= 300 ? 0 : 30;
-        updateSummary(subtotal, shipping);
-        
+                
         // Add event listeners to quantity buttons
         document.querySelectorAll('.quantity-btn').forEach(button => {
             button.addEventListener('click', function() {
