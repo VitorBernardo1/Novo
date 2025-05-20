@@ -5,6 +5,8 @@ Projeto desenvolvido por:
 
 Professor:
 - [Bruno Zolotareff dos Santos]
+Disciplina:
+- [Desenvolvimento Web I]
 
 ## Funcionalidades Principais
 - Sistema completo de login e cadastro
